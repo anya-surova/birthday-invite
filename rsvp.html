@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a href="details.html" class="back-circle">
+        ←
+    </a>
+
+    <section class="page">
+
+        <section class="page">
+
+            <h1>RSVP</h1>
+
+            <p>Please fill in the form below.</p>
+
+            <form id="rsvpForm">
+
+                <label for="guestName">Name</label><br>
+
+                <input type="text" id="guestName" name="guestName" placeholder="Enter your name" required>
+
+                <br><br>
+
+                <p>Will you be attending?</p>
+
+                <label>
+                    <input type="radio" name="attendance" value="coming" required>
+                    Yes, I'll be there!
+                </label>
+
+                <br>
+
+                <label>
+                    <input type="radio" name="attendance" value="notComing">
+                    Sorry, I can't make it.
+                </label>
+
+                <br><br>
+
+                <button type="submit">
+                    Submit RSVP
+                </button>
+
+            </form>
+
+        </section>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>

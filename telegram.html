@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>See You Soon!</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <a href="index.html" class="back-circle">
+        ←
+    </a>
+
+    <section class="page">
+
+        <h1 id="welcomeName"></h1>
+
+        <p>
+            I'm so excited to celebrate with you!
+        </p>
+
+        <h2>Join the Telegram Channel</h2>
+
+        <img src="images/telegramQR.png" alt="Telegram QR Code" width="250">
+
+        <br><br>
+
+        <a href="https://t.me/YOURCHANNEL" target="_blank">
+            Join Telegram
+        </a>
+
+    </section>
+
+    <script>
+
+        const name = localStorage.getItem("guestName");
+
+        document.getElementById("welcomeName").innerHTML =
+            "See you soon, " + name + "! 🎉";
+
+    </script>
+
+</body>
+
+</html>
