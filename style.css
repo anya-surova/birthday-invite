@@ -15,12 +15,13 @@ body {
     display: flex;
     flex-direction: column;
 
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
 
     text-align: center;
 
     padding: 30px;
+    padding-top: 60px;
 }
 
 h1 {
@@ -106,7 +107,7 @@ button {
 }
 
 .home-page {
-    background-image: url("images/index_background.png");
+    background-image: url("images/index_background_a.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -136,7 +137,7 @@ button {
 }
 
 .index-button {
-    width: 220px;
+    width: 180px;
     /* Makes the button smaller */
     padding: 15px 20px;
 
